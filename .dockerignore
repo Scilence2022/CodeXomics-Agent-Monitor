@@ -1,0 +1,6 @@
+.git
+.data
+.env*
+output
+.playwright-cli
+dist
