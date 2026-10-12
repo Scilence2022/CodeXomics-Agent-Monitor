@@ -1,0 +1,20 @@
+{
+  "name": "codexomics-agent-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Live agent activity and versioned genome maintenance releases",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs --demo",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "import": "node scripts/import-local.mjs",
+    "bridge": "node scripts/bridge.mjs",
+    "snapshot": "node scripts/snapshot.mjs",
+    "release": "node scripts/publish-release.mjs"
+  }
+}
